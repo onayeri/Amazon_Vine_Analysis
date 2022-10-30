@@ -22,12 +22,12 @@
 ![image](https://user-images.githubusercontent.com/105329532/198902797-331e2b39-e159-4115-a7e6-6462836f6d36.png)
 
 ##### * What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars? 
-        Percentage of Vine Reviews with 5 stars(44%)
-![image](https://user-images.githubusercontent.com/105329532/198904028-2dd8fe6b-f0ee-4a7a-85e6-98924235384c.png)
+        Percentage of Vine Reviews with 5 stars
+![image](https://user-images.githubusercontent.com/105329532/198907002-5d33157e-99a3-4f77-886a-a23adc1b3560.png)       
         Percentage of non-Vine Reviews with 5 stars 
 ![image](https://user-images.githubusercontent.com/105329532/198903567-e191403d-82d4-4433-adf1-d4a9a85013f8.png)
 
 ---
 ### Summary:
 
-The based on the data counts within each of the filtered tables between Vine and Non-vine reviews. In each of the tables comparisons there is a significant difference that shows that there are more non_Vine reviews by well over 10000 in count. Vine reviews make up abount 44% of the 5 star reviews where as the non vine reviews make up about 62%. Even thought there are more non-Vine reviews making up the 5 star, it is still noteable that almost half of the 5 star reviews are from vine reviews even though there are less vine reviews all together. This tells us that most of the vine reviews are 5 star ratingts which does lean more towards the suspicion of bias of these Vine reviews.
+The based on the data counts within each of the filtered tables between Vine and Non-vine reviews. In each of the tables comparisons there is a significant difference that shows that there are more non_Vine reviews by well over 10000 in count. Vine reviews make up abount 44% of the 5 star reviews where as the non vine reviews make up about 62%. Even thought there are more non-Vine reviews making up the 5 star, it is still noteable that almost half of the 5 star reviews are from vine reviews even though there are less vine reviews all together. This tells us that most of the vine reviews are 5 star ratings which does lean more towards the suspicion of bias of these Vine reviews because of the smaller sample size.
