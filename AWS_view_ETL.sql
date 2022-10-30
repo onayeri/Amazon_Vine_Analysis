@@ -132,15 +132,28 @@ FROM vine_totalpaidreviews as TPR
 INNER JOIN total_five_star_paidreviews as PFSR
 ON 1=1;
 
-SELECT * FROM view_percentagepaid;
+SELECT * 
+FROM view_percentagepaid;
 
 -- percentage of 5-star reviews for paid reviews: 
 SELECT paidtotal_reviews, total_fivestar_paidreviews
-CONCAT(ROUND (CAST(total_fivestar_paidreviews AS FLOAT)/ CAST(paidtotal_reviews AS FLOAT)*100), '%') AS percent_paid_five 
+ROUND(CAST((total_fivestar_paidreviews * 100.0 / paidtotal_reviews) AS FLOAT), 2) 
 INTO percent_paid5star_analysis
 FROM view_percentagepaid;
 
-SELECT * FROM view_percentagepaid;
+ROUND(CAST((Numerator * 100.0 / Denominator) AS FLOAT), 2) AS Percentage
+
+SELECT * 
+FROM percent_paid5star_analysis;
+
+SELECT total_fivestar_paidreviews, paidtotal_reviews, CONCAT(ROUND((CAST(total_fivestar_paidreviews AS FLOAT)/ 
+                                                      CAST(paidtotal_reviews AS FLOAT))*100.0),'%') AS percent_paid_5stars
+FROM view_percentagepaid
+
+
+
+
+
 
 
 
